@@ -1,6 +1,7 @@
 import React from "react";
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
+import { Link } from "react-router";
 
 const Projects = () => {
   return (
@@ -9,7 +10,7 @@ const Projects = () => {
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}
         transition={{ duration: 1 }}
-        className="my-20 text-center text-4xl"
+        className="my-20 font-thin text-center text-6xl"
       >
         Projects
       </motion.h2>
@@ -22,13 +23,15 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              <img
-                className="mb-6 rounded"
-                height={150}
-                width={150}
-                src={project.image}
-                alt={project.title}
-              />
+              <Link to={project.href} target="_blank">
+                <div className="flex h-48 w-48 items-center justify-center overflow-hidden rounded bg-white">
+                  <img
+                    className="h-full w-full object-contain"
+                    src={project.image}
+                    alt={project.title}
+                  />
+                </div>
+              </Link>
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
