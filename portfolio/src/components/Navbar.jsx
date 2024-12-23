@@ -15,7 +15,7 @@ const Navbar = () => {
         <Link to="https://www.linkedin.com/in/kristianallanos/" target="_blank">
           <FaLinkedin />
         </Link>
-        <Link to="https://github.com/slatzz" target="_blank">
+        <Link to="https://github.com/llanosengineering" target="_blank">
           <FaGithub />
         </Link>
         <Link to="mailto:llanosengineering@gmail.com" target="_blank">
