@@ -10,7 +10,7 @@ export const HERO_CONTENT = `I’m a software engineer with over four years of e
 export const ABOUT_TEXT = `
 In 2020, I earned a certificate in Fundamentals of JavaScript Functional Programming and Web Development from Operation Spark New Orleans, marking my transition from the field of psychology to a career in technology. This shift builds on my academic foundation, which includes a Master of Science in Clinical Mental Health Counseling from Loyola University New Orleans (2019) and a Bachelor of Arts in Psychology from The University of Texas at Austin (2015).
 
-When I’m not coding, you’ll likely find me tending to my balcony garden, spending time with my two cats, or rehearsing and performing with the Symphony of New Orleans.
+When I’m not coding, you’ll likely find me tending to my balcony garden, spending time with my cats, Coopy and ChiChi, or rehearsing and performing with the Symphony of New Orleans (SONO).
 `;
 
 export const EXPERIENCES = [
@@ -18,8 +18,8 @@ export const EXPERIENCES = [
     year: "2021 - 2024",
     role: "Software Engineer",
     company: "Metafora, LLC",
-    description: `Developed and maintained web applications using JavaScript, TypeScript, and Java. Implemented and updated RESTful APIs and integrated databases. Collaborated with product managers to design and modernize consulting projects.`,
-    technologies: ["JavaScript", "TypeScript", "Java", "React", "Angular", "Material UI"],
+    description: `Designed, developed and maintained web applications using JavaScript, TypeScript, Java and Kotlin. Responsible for designing and the development of company's first commercial web application. Implemented and updated RESTful APIs and SQL and mongoDB databases. Collaborated with product managers to design and modernize websites for consulting clients.`,
+    technologies: ["JavaScript", "TypeScript", "Java", "Kotlin", "React", "Angular", "Material UI", "HTML", "CSS", "SASS", "mongoDB", "SQL", "Docker", "Circle CI", "Jenkins", "Elasticsearch", "Okta"],
   },
 ];
 
@@ -30,7 +30,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "Personal portfolio website showcasing projects, technologies, and contact information.",
-    technologies: ["Tailwind CSS", "React", "Vercel", "Framer Motion"],
+    technologies: ["Tailwind CSS", "React", "Framer Motion", "Vercel"],
   },
   {
     title: "Raising Consciousness Consulting, LLC",
