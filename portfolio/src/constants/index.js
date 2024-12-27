@@ -19,7 +19,7 @@ export const EXPERIENCES = [
     role: "Software Engineer",
     company: "Metafora, LLC",
     description: `Designed, developed and maintained web applications using JavaScript, TypeScript, Java and Kotlin. Responsible for designing and the development of company's first commercial web application. Implemented and updated RESTful APIs and SQL and mongoDB databases. Collaborated with product managers to design and modernize websites for consulting clients.`,
-    technologies: ["JavaScript", "TypeScript", "Java", "Kotlin", "React", "Angular", "Material UI", "HTML", "CSS", "SASS", "mongoDB", "SQL", "Docker", "Circle CI", "Jenkins", "Elasticsearch", "Okta"],
+    technologies: ["JavaScript", "TypeScript", "Java", "Kotlin", "React", "Angular", "Material UI", "HTML", "CSS", "SASS", "mongoDB", "SQL", "Docker", "CircleCI", "Jenkins", "Elasticsearch", "Okta"],
   },
 ];
 
@@ -30,7 +30,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "Personal portfolio website showcasing projects, technologies, and contact information.",
-    technologies: ["Tailwind CSS", "React", "Framer Motion", "Vercel"],
+    technologies: ["React", "Tailwind CSS", "Framer Motion", "Vercel"],
   },
   {
     title: "Raising Consciousness Consulting, LLC",
@@ -54,7 +54,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "A room swapping social web application with room listings, room ratings, 1-1 chat messaging, and user profiles.",
-    technologies: ["JavaScript", "TypeScript", "React", "PostgreSQL", "Material UI"],
+    technologies: ["JavaScript", "TypeScript", "Node.js", "React", "PostgreSQL", "Material UI", "JSON Web Token", "Bcrypt.js"],
   },
   {
     title: "MyVote Web Application",
@@ -62,7 +62,7 @@ export const PROJECTS = [
     image: project5,
     description:
       "Voter information web application with polling location search option, user voter information, user profiles, and election information.",
-    technologies: ["JavaScript", "React", "mongoDB", "Material UI", "Node.js", "Oauth"],
+    technologies: ["JavaScript", , "Node.js", "React", "mongoDB", "Material UI", "Oauth"],
   },
 ];
 
