@@ -19,7 +19,7 @@ export const EXPERIENCES = [
     role: "Software Engineer",
     company: "Metafora, LLC",
     description: `Designed, developed and maintained web applications using JavaScript, TypeScript, Java and Kotlin. Responsible for designing and the development of company's first commercial web application. Implemented and updated RESTful APIs and SQL and mongoDB databases. Collaborated with product managers to design and modernize websites for consulting clients.`,
-    technologies: ["JavaScript", "TypeScript", "Java", "Kotlin", "React", "Angular", "Material UI", "HTML", "CSS", "SASS", "mongoDB", "SQL", "Docker", "CircleCI", "Jenkins", "Elasticsearch", "Okta"],
+    technologies: ["JavaScript", "TypeScript", "Java", "Kotlin", "React", "Angular", "Material UI", "HTML", "CSS", "SASS", "mongoDB", "SQL", "Docker", "CircleCI", "Jenkins", "Elasticsearch", "Okta", "Figma"],
   },
 ];
 

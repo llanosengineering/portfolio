@@ -12,7 +12,8 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiCircleci } from "react-icons/si";
 import { FaJenkins } from "react-icons/fa";
 import { FaHtml5 } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
+import { FaCss3Alt } from "react-icons/fa";
+import { FaFigma } from "react-icons/fa";
 
 const iconVariants = (duration) => ({
   initial: { y: -10 },
@@ -66,6 +67,13 @@ const Technologies = () => {
           <FaHtml5 className="text-7xl text-orange-700" />
         </motion.div>
         <motion.div
+          variants={iconVariants(4)}
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaCss3Alt className="text-7xl text-blue-700" />
+        </motion.div>
+        <motion.div
           variants={iconVariants(2.5)}
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
@@ -85,6 +93,13 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <FaAngular className="text-7xl text-red-500" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(5)}
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaFigma className="text-7xl" />
         </motion.div>
         <motion.div
           variants={iconVariants(2)}
