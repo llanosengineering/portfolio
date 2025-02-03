@@ -52,7 +52,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
-    href: "https://llanosengineering.vercel.app/",
+    href: "https://github.com/llanosengineering/portfolio",
     image: project1,
     description:
       "Personal portfolio website showcasing projects, technologies, and contact information.",
