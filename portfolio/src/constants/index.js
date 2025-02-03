@@ -1,9 +1,9 @@
-import project1 from "../assets/projects/kl-sq.jpeg"; 
+import project1 from "../assets/projects/kl-sq.jpeg";
 import project2 from "../assets/projects/rcc.jpg";
 import project3 from "../assets/projects/or.jpeg";
 import project4 from "../assets/projects/goldilocks-logo.png";
-import project5 from '../assets/projects/myvote-logo.png'
-
+import project5 from "../assets/projects/myvote-logo.png";
+import project6 from "../assets/projects/ygt-mobile.png";
 
 export const HERO_CONTENT = `I’m a software engineer with over four years of experience building modern, user-focused web applications. Skilled in front-end technologies like JavaScript, TypeScript, React, and Angular, I also work with back-end tools such as Java, Node.js, and databases like MySQL, PostgreSQL, and MongoDB. I’m passionate about creating intuitive applications and continuously advancing my technical expertise in the ever-evolving field of software engineering.`;
 
@@ -19,11 +19,37 @@ export const EXPERIENCES = [
     role: "Software Engineer",
     company: "Metafora, LLC",
     description: `Designed, developed and maintained web applications using JavaScript, TypeScript, Java and Kotlin. Responsible for designing and the development of company's first commercial web application. Implemented and updated RESTful APIs and SQL and mongoDB databases. Collaborated with product managers to design and modernize websites for consulting clients.`,
-    technologies: ["JavaScript", "TypeScript", "Java", "Kotlin", "React", "Angular", "Material UI", "HTML", "CSS", "SASS", "mongoDB", "SQL", "Docker", "CircleCI", "Jenkins", "Elasticsearch", "Okta", "Figma"],
+    technologies: [
+      "JavaScript",
+      "TypeScript",
+      "Java",
+      "Kotlin",
+      "React",
+      "Angular",
+      "Material UI",
+      "HTML",
+      "CSS",
+      "SASS",
+      "mongoDB",
+      "SQL",
+      "Docker",
+      "CircleCI",
+      "Jenkins",
+      "Elasticsearch",
+      "Okta",
+      "Figma",
+    ],
   },
 ];
 
 export const PROJECTS = [
+  {
+    title: "You Got This Mobile Application",
+    href: "https://github.com/llanosengineering/mobile-you-got-this-app",
+    image: project6,
+    description: "Mobile application to help manage your daily tasks.",
+    technologies: ["React", "React Native", "Firebase (Firestore)"],
+  },
   {
     title: "Portfolio Website",
     href: "https://llanosengineering.vercel.app/",
@@ -44,8 +70,7 @@ export const PROJECTS = [
     title: "Oriel Romano, LLC",
     href: "https://orielromano.com/",
     image: project3,
-    description:
-      "Wordpress site for licensed professional counselor.",
+    description: "Wordpress site for licensed professional counselor.",
     technologies: ["Wordpress", "Unsplash", "Picsart"],
   },
   {
@@ -54,7 +79,16 @@ export const PROJECTS = [
     image: project4,
     description:
       "A room swapping social web application with room listings, room ratings, 1-1 chat messaging, and user profiles.",
-    technologies: ["JavaScript", "TypeScript", "Node.js", "React", "PostgreSQL", "Material UI", "JSON Web Token", "Bcrypt.js"],
+    technologies: [
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "React",
+      "PostgreSQL",
+      "Material UI",
+      "JSON Web Token",
+      "Bcrypt.js",
+    ],
   },
   {
     title: "MyVote Web Application",
@@ -62,7 +96,15 @@ export const PROJECTS = [
     image: project5,
     description:
       "Voter information web application with polling location search option, user voter information, user profiles, and election information.",
-    technologies: ["JavaScript", , "Node.js", "React", "mongoDB", "Material UI", "Oauth"],
+    technologies: [
+      "JavaScript",
+      ,
+      "Node.js",
+      "React",
+      "mongoDB",
+      "Material UI",
+      "Oauth",
+    ],
   },
 ];
 
