@@ -1,8 +1,9 @@
 {
   "name": "portfolio",
   "compatibility_date": "2025-04-15",
+  "main": "src/index.js",
   "assets": {
-    "directory": "./dist"
+    "directory": "./dist/assets"
   },
   "routes": ["https://www.llanosengineering.com/*"]
 }
