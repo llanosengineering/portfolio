@@ -1,0 +1,9 @@
+name = "portfolio"
+compatibility_date = "2025-04-15"
+
+[site]
+bucket = "./dist"         
+entry-point = "."       
+
+[build]
+upload.format = "modules" 
