@@ -4,8 +4,9 @@ import project3 from "../assets/projects/or.jpeg";
 import project4 from "../assets/projects/goldilocks-logo.png";
 import project5 from "../assets/projects/myvote-logo.png";
 import project6 from "../assets/projects/ygt-mobile.png";
+import project7 from "../assets/projects/luxarboreus.jpg";
 
-export const HERO_CONTENT = `I’m a software engineer with over four years of experience building modern, user-focused web applications. Skilled in front-end technologies like JavaScript, TypeScript, React, and Angular, I also work with back-end tools such as Java, Node.js, and databases like MySQL, PostgreSQL, and MongoDB. I’m passionate about creating intuitive applications and continuously advancing my technical expertise in the ever-evolving field of software engineering.`;
+export const HERO_CONTENT = `Bienvenidos! My name is Kristiana Llanos, and I am a software engineer with 5 years of experience building modern, user-focused web applications. `;
 
 export const ABOUT_TEXT = `
 In 2020, I earned a certificate in Fundamentals of JavaScript Functional Programming and Web Development from Operation Spark New Orleans, marking my transition from the field of psychology to a career in technology. This shift builds on my academic foundation, which includes a Master of Science in Clinical Mental Health Counseling from Loyola University New Orleans (2019) and a Bachelor of Arts in Psychology from The University of Texas at Austin (2015).
@@ -56,23 +57,9 @@ export const PROJECTS = [
     image: project1,
     description:
       "Personal portfolio website showcasing projects, technologies, and contact information.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion", "Vercel"],
+    technologies: ["Vite", "React", "Tailwind CSS", "Framer Motion", "Vercel"],
   },
-  {
-    title: "Raising Consciousness Consulting, LLC",
-    href: "https://raisingconsciousnessconsulting.com/",
-    image: project2,
-    description:
-      "Wordpress site for consulting business with booking information and contact form.",
-    technologies: ["Wordpress", "Unsplash", "Picsart"],
-  },
-  {
-    title: "Oriel Romano, LLC",
-    href: "https://orielromano.com/",
-    image: project3,
-    description: "Wordpress site for licensed professional counselor.",
-    technologies: ["Wordpress", "Unsplash", "Picsart"],
-  },
+
   {
     title: "Goldilocks Web Application",
     href: "https://github.com/slatzz/goldilocks",
@@ -105,6 +92,35 @@ export const PROJECTS = [
       "Material UI",
       "Oauth",
     ],
+  },
+];
+
+export const FREELANCE_PROJECTS = [
+  {
+    title: "mysticbardlux.com",
+    year: "(2025 - present)",
+    href: "https://mysticbardlux.com/",
+    image: project7,
+    description:
+      "Squarespace website for spiritual diviner offering a varity of services for purchase.",
+    technologies: ["Squarespace", "Unsplash", "Picsart"],
+  },
+  {
+    title: "Raising Consciousness Consulting, LLC",
+    year: "(2024 - present)",
+    href: "https://raisingconsciousnessconsulting.com/",
+    image: project2,
+    description:
+      "Wordpress website for consulting business with booking information and contact form.",
+    technologies: ["Wordpress", "Unsplash", "Vecteezy", "Picsart"],
+  },
+  {
+    title: "Oriel Romano, LLC",
+    year: "(2023 - present)",
+    href: "https://orielromano.com/",
+    image: project3,
+    description: "Wordpress website for licensed professional counselor.",
+    technologies: ["Wordpress", "Unsplash", "Picsart"],
   },
 ];
 
