@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "compatibility_date": "2025-04-15",
-  "main": "portfolio/src/main.jsx",
+  "main": "src/main.jsx",
   "assets": {
     "directory": "./dist/assets"
   },
