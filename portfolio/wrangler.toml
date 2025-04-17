@@ -1,3 +1,8 @@
 name = "portfolio"
 compatibility_date = "2025-04-15"
-pages_build_output_dir = "./dist"
+
+[build]
+command = "npm run build"  # Make sure this works and builds the site
+
+[build.upload]
+pages_build_output_dir = "dist"
