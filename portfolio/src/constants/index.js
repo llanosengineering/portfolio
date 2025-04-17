@@ -1,10 +1,10 @@
-import project1 from "../assets/projects/kl-sq.jpeg";
-import project2 from "../assets/projects/rcc.jpg";
-import project3 from "../assets/projects/or.jpeg";
-import project4 from "../assets/projects/goldilocks-logo.png";
-import project5 from "../assets/projects/myvote-logo.png";
-import project6 from "../assets/projects/ygt-mobile.png";
-import project7 from "../assets/projects/luxarboreus.jpg";
+import project1 from "../assets/kl-sq.jpeg";
+import project2 from "../assets/rcc.jpg";
+import project3 from "../assets/or.jpeg";
+import project4 from "../assets/goldilocks-logo.png";
+import project5 from "../assets/myvote-logo.png";
+import project6 from "../assets/ygt-mobile.png";
+import project7 from "../assets/luxarboreus.jpg";
 
 export const HERO_CONTENT = `Bienvenidos! My name is Kristiana Llanos, and I am a software engineer with 5 years of experience building modern, user-focused web applications. `;
 

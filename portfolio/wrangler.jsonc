@@ -1,9 +1,0 @@
-{
-  "name": "portfolio",
-  "compatibility_date": "2025-04-15",
-  "main": "src/main.jsx",
-  "assets": {
-    "directory": "./dist/assets"
-  },
-  "routes": ["https://www.llanosengineering.com/*"]
-}

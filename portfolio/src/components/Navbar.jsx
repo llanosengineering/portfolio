@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/projects/bucktooth-bill-favicon.png";
+import logo from "../assets/bucktooth-bill-favicon.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
